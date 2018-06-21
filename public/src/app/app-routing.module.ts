@@ -7,6 +7,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: 'chicago', component: ChicagoComponent},
+  { path: '', component: SanjoseComponent},
   { path: 'sanjose', component: SanjoseComponent},
   { path: 'seattle', component: SeattleComponent},
   // { path: '**', component: PageNotFoundComponent}

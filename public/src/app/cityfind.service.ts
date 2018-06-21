@@ -18,7 +18,12 @@ export class CityfindService {
   // ========== GET CHICAGO ===========
   getWeatherChicago() {
     console.log('going to get weather form server for chicago');
-    return this._http.get('api.openweathermap.org/data/2.5/weather?zip=60612,us&APPID=892b250333f671f7ddb449a0faa3ad10');
+    return this._http.get('http://api.openweathermap.org/data/2.5/weather?zip=60612,us&APPID=892b250333f671f7ddb449a0faa3ad10');
   }
 
+  // ========== GET SAN JOSE ===========
+  getWeatherSanJose() {
+    console.log('going to get weather form server for san JOSE');
+    return this._http.get('http://api.openweathermap.org/data/2.5/weather?zip=95112,us&APPID=892b250333f671f7ddb449a0faa3ad10');
+  }
 }
