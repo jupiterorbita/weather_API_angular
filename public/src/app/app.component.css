@@ -1,0 +1,9 @@
+body{
+    border: 1px solid red;
+    border-radius: 3px;
+}
+.dojos{
+    border: 2px solid rgb(158, 105, 105);
+    border-radius: 3px;
+    padding: 2px;
+}
